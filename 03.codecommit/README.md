@@ -75,7 +75,11 @@ git status -v -v
 
 git reset HEAD   #stage to work-dir
 git reset --soft HEAD^  #commit to stage
+git reset --hard HEAD^ #undo last commit and changes
 
+git commit --amend -m "code commit" #soft_reset + commit
+
+git revert <commit_id> #generate new commit id and revert changes
 ```
 
 # Git Workflow
