@@ -81,6 +81,7 @@ git commit --amend -m "code commit" #soft_reset + commit
 
 git revert <commit_id> #generate new commit id and revert changes
 
+
 ```
 
 # Git Workflow
