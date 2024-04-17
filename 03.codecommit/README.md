@@ -141,6 +141,7 @@ Here's a breakdown:
 
 Branches provide a way to work on different parts of a project simultaneously, collaborate with others without interfering with their work, and manage releases and bug fixes efficiently. Git's branching model is flexible and powerful, allowing teams to organize their workflow according to their specific needs and development practices.
 
+
 ```bash
 # Create a new branch
 git branch new-branch
@@ -197,3 +198,5 @@ git branch -v
 # Show all branches merged into the current branch
 git branch --merged
 ```
+
+![alt text](image.png)
