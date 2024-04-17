@@ -200,3 +200,46 @@ git branch --merged
 ```
 
 ![alt text](image.png)
+
+
+# STASH
+
+![alt text](image-2.png)
+
+```bash
+# Stash changes
+git stash
+
+# Stash changes with a message
+git stash save "message"
+
+# List all stashes
+git stash list
+
+# Apply the latest stash
+git stash apply
+
+# Apply a specific stash
+git stash apply stash@{n}
+
+# Apply and drop the latest stash
+git stash pop
+
+# Apply and drop a specific stash
+git stash pop stash@{n}
+
+# Drop the latest stash
+git stash drop
+
+# Drop a specific stash
+git stash drop stash@{n}
+
+# Apply changes from a stash without removing it from the stash list
+git stash apply --index stash@{n}
+
+# Create a branch from a stash
+git stash branch new-branch stash@{n}
+
+# Clear all stashes
+git stash clear
+```
